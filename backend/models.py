@@ -5,7 +5,7 @@ import datetime
 from sqlalchemy import Text
 from backend.database import Base
 
-
+#using sql alchemy to define the structure of the table, instead of hardcoding sql
 class Application(Base):
     
     __tablename__ = "applications"
